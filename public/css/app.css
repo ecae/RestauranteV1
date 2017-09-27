@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.main-wrapper .header {
+  position: relative;
+  background: -webkit-gradient(linear, right top, left top, from(#16222A), to(#3A6073));
+  background: linear-gradient(to left, #16222A, #3A6073);
+  background-size: cover;
+  height: 25em;
+  width: 100vw;
+  -webkit-box-shadow: inset -1px -3px 5px rgba(0, 0, 0, 0.5), inset 1px 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: inset -1px -3px 5px rgba(0, 0, 0, 0.5), inset 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-wrapper .header h1 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3em;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5), -1px -3px 5px rgba(0, 0, 0, 0.5);
+}
+
